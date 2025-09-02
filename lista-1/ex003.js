@@ -1,10 +1,10 @@
 import input from 'readline-sync'
 
-let N1=input.questionInt(" Digite o primeiro numero ");
-let N2=input.questionInt(" Digite o segundo numero ");
+let n1=input.questionInt(" Digite o primeiro numero: ");
+let n2=input.questionInt(" Digite o segundo numero: ");
 
-N1 = (N1-2);
-N2 = (N2+2);
+n1 = (n1-2);
+n2 = (n2+2);
 
-console.log("Resposta 1 =", N1);
-console.log("Resposta 2 =", N2);
+console.log("Resposta 1 =", n1);
+console.log("Resposta 2 =", n2);
