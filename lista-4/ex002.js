@@ -6,7 +6,7 @@ let n2 = input.questionInt("Digite outro numero: ")
 let menor, maior;
 
 if (n1 < n2) {
-    menor - n1 + 5;
+    menor = n1 + 5;
     maior = n2
 } else {
     menor = n2 + 5;
